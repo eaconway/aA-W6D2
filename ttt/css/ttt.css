@@ -1,0 +1,29 @@
+.ttt {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 34px;
+  margin: 10px;
+}
+
+ul {
+  border: 5px solid black;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 5px solid black;
+  height: 30%;
+  background-color: grey;
+  font-size: 70px;
+}
+
+.square:hover{
+background-color: yellow;
+}
